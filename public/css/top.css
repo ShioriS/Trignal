@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body{background-color: #F7D358}
+
+div  {
+    margin : 60px ;
+
+    margin-right: 30px;}
+
+/*タイトル（title）　設定*/
+.title{text-align: center;}
+.title p{font-size:35px;}
+/*検索　設定*/
+.search{width:300px;}
+.search{margin-left:auto;}
+
+
+
+/**メイン*!*/
+.main       {width:70%;
+    margin:auto;
+}
+
+
+
+
+
+
+/*商品（product）設定*/
+.product img{width:180px;
+    height:150px;
+    text-align: center;}
+
+
+/*ジャンルメニュー*/
+.genre                  {margin:20px 10px}
+
+/*検索*/
+.search         {width:100%;
+    text-align: center;
+    margin:20px 10px;}
+
+/*商品一覧*/
+.list           {
+    position: relative;
+    border: none;
+    overflow: hidden;
+}
+
+.col-sm-2      {padding:10px 15px;
+    background-color:#FFFFFF;
+    margin:10px 30px 10px 10px;}

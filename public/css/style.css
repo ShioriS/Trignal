@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{background-color: #F7D358}
+
+div  {
+    margin : 60px ;
+
+    margin-right: 30px;}
+
+/*タイトル（title）　設定*/
+.title{text-align: center;}
+.title p{font-size:35px;}
+/*検索　設定*/
+.search{width:300px;}
+.search{margin-left:auto;}
+
+
+
+
+
+/*上にあるボーダー設定*/
+.inline-block a {text-decoration:none;
+                    font-size:26px;}
+
+.inline-block ul{list-style-type: none;
+    padding-left: 0;
+}
+
+
+.inline-block li{backgound:#000000;
+    wigdth:50px;
+    height:50px;
+    padding:10px;
+    margin:10px;
+}
+
+.inline-block{text-align: center;}
+
+.inline-block li {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/*商品（product）設定*/
+.product img{width:200px;
+               height:150px;
+               text-align: center;}
+
+
+/*cart.phpの画像設定*/
+.cart img{wigth:px;
+           height:150px;
+    text-align: center;}
+
+
+
+
+
+/*住所(buy）の設定*/
+
+.address
+/*コピーライト*/
+.footer {
+            bottom:0;
+            background-color: #F5F6CE;
+            height:auto;
+            wight:100%;
+            margin:auto;
+            text-align: center;}
+
