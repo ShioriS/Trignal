@@ -20,6 +20,7 @@
     <![endif]-->
     <link href="css/default.css"type="text/css"rel="stylesheet">
     <link href="css/style.css"type="text/css"rel="stylesheet">
+    <link href="css/category.css"type="text/css"rel="stylesheet">
 
 </head>
 
@@ -34,37 +35,19 @@
     </div>
 
 
-    <!--検索設定-->
-    <div class="search">
-        <input type="hidden" name="mode" value="srh">
-        <select name="cid">
-            <option value>すべての商品</option>
-            <option value>かんざし</option>
-            <option value>ピアス</option>
-            <option value>ネックレス・チョーカー</option>
-            <option value>ブレスレット</option>
-            <option value>指輪</option>
-            <option value>キャラクターイメージ</option>
-            <option value>その他</option>
-
-        </select>
-        <button type="submit">
-            <span>検索</span>
-        </button>
-    </div>
 
 
     <!--上にあるボーダー-->
     <ul class="inline-block">
         <!--トップページ-->
         <li class="home">
-            <a href="">ホーム</a>
+            <a href="./">ホーム</a>
         </li>
 
 
         <!--カテゴリー-->
         <li class="category">
-            <a href="category">カテゴリー</a>
+            <a href="category">人気商品</a>
         </li>
 
         <!--カート-->
@@ -74,4 +57,88 @@
     </ul>
 
 
-</div>　　
+
+          <div class="ninki">
+
+              <p class="ninki">カテゴリー別人気商品！！</p>
+
+
+        </div>
+
+
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            総合ランキング
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-6 col-md-3">
+                    <a href="detail/1">
+                        <img src="image/k1.jpg" alt="" width="256" height="256">
+                        <p>人気No１の『トンボ玉のかんざし』</p>
+                        <p> 夏祭りにも着物にもぴったり！</p>
+                        <p> １年３６５日いつでも使える</p>
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <a href="detail/2">
+                        <img src="image/k2.jpg" alt="" width="256" height="256">
+                        <p>人気No２『ゆらゆらガラスのかんざし』</p>
+                        <p> 風に吹かれて音がでるので</p>
+                        <p>風鈴気分</p>
+                    </a>
+                </div>
+
+
+                <div class="col-xs-6 col-md-3">
+                    <a href="detail/3">
+                        <img src="image/p1.jpg" alt="" width="256" height="256">
+                        <p>人気No３『てまりピアス』</p>
+                        <p> 使いやすいカラーが人気！！</p>
+                        <p> デザインも豊富に取り揃えています</p>
+                    </a>
+                </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            ピアス部門！！
+        </div>
+        <div class="panel-body">
+
+            <div class="col-xs-6 col-md-3">
+                <a href="detail/3">
+                    <img src="image/p1.jpg" alt="" width="256" height="256">
+                    <p>人気No３『てまりピアス』</p>
+                    <p> 使いやすいカラーが人気！！</p>
+                    <p> デザインも豊富に取り揃えています</p>
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <a href="detail/6">
+                    <img src="image/p2.png" alt="" width="256" height="256">
+                    <p>『ホログラムピアス』</p>
+                    <p> 水玉型の枠の中にきらきら光るホロ</p>
+                    <p> 暑い夏にはぴったり！</p>
+                </a>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <a href="detail/">
+                    <img src="image/p3.jpg" alt="" width="256" height="256">
+                    <p>『金平糖ピアス』</p>
+                    <p> 本物のお金平糖からかたどり</p>
+                    <p> 残念ながら食べれませんが・・(笑)</p>
+                </a>
+            </div>
+
+
+        </div>
+    </div>　　

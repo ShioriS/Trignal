@@ -15,6 +15,11 @@ Route::get("/",function(){
     return view("toppage");
 });
 
+Route::get("/category",function(){
+    return view("category");
+});
+
+
 Route::get("/detail/",function(){
     return view("detail");
 });
@@ -36,6 +41,8 @@ Route::get("/",function(){
         "items" => $items
     ]);
 });
+
+
 
 Route::get("/detail/{item_id}",function($itemId){
     $items = DB::select("SELECT * FROM items where id = ?",[$itemId]);
@@ -70,6 +77,8 @@ Route::post("/cart/{item_id}",function($itemId){
     }
 });
 
+
+
 // [GET] /cart カートの表示
 Route::get("/cart",function(){
     $cartItems = request()->session()->get("CART",[]);
@@ -99,6 +108,14 @@ Route::post("buy",function(){
 
 
 //購入後画面
+//Route::get("thanks",function(){
+//    return view("thanks");
+//});
+
+
 Route::get("thanks",function(){
-    return view("thanks");
+    $items = DB::select("SELECT * FROM items");
+    return view("thanks",[
+        "items" => $items
+    ]);
 });

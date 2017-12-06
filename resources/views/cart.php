@@ -39,7 +39,7 @@
 
             <!--カテゴリー-->
             <li class="category">
-                <a href="./">カテゴリー</a>
+                <a href="category">人気商品</a>
             </li>
 
             <!--カート-->
@@ -58,10 +58,11 @@
                     <table class="table">
                 <thead>
                 <tr>
-                    <th>画像</th>
+                    <th>　画像</th>
                     <th>商品名</th>
                     <th>カテゴリー</th>
                     <th>価格</th>
+                    <th>取り消し</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -95,11 +96,11 @@
 
         </div>
     </table>
-            <from action="/buy">
+            <form action="/buy">
             <div style="text-align:right">
-            <button type="submit" class="btn btn-info">登録</button>
+            <input type="submit" value="登録">
             </div>
-　</from>
+　</form>
 
 
 

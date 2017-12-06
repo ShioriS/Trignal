@@ -36,6 +36,13 @@ div  {
     display: inline-block;
 }
 
+.osusume{text-align: center;}
+.osusume p{font-size: 25px;
+            color: #d62728;}
+
+
+
+
 /*コピーライト*/
 .footer {
 

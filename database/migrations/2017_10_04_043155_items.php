@@ -19,6 +19,7 @@ class Items extends Migration
             $table->integer('price');
             $table->text('image');
             $table->string('category');
+            $table->text('description');
 
         });
     }

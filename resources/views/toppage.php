@@ -34,24 +34,7 @@
 </div>
 
 
-<!--検索設定-->
-<div class="search">
-<input type="hidden" name="mode" value="srh">
-<select name="cid">
-    <option value>すべての商品</option>
-    <option value>かんざし</option>
-    <option value>ピアス</option>
-    <option value>ネックレス・チョーカー</option>
-    <option value>ブレスレット</option>
-    <option value>指輪</option>
-    <option value>キャラクターイメージ</option>
-    <option value>その他</option>
 
-</select>
-    <button type="submit">
-        <span>検索</span>
-     </button>
-</div>
 
 
     <!--上にあるボーダー-->
@@ -64,7 +47,7 @@
 
 <!--カテゴリー-->
 <li class="category">
-    <a href="category.php">カテゴリー</a>
+    <a href="./category">人気商品</a>
 </li>
 
 <!--カート-->
@@ -88,9 +71,9 @@
 
 <!--おすすめラインナップ-->
 <div class="main">
-<p class="osusume">
+<div class="osusume">
     <p>今月のおすすめラインナップ</p>
-</p>
+</div>
 
 
 
@@ -118,6 +101,7 @@
 <!--<div class="footer">-->
 <!--    &copy アクセサリー工房-->
 <!--</div>-->
+<br>
 
 </body>
 </html>
