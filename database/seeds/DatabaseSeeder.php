@@ -43,5 +43,17 @@ class DatabaseSeeder extends Seeder
         DB::insert("insert into items(image,name,category,description,price) value (?,?,?,?,?)",[
             "p3.jpg","金平糖ピアス"," ピアス・イヤリング","本物の金平糖みたいなおいしそうなピアスです(笑)",1300
         ]);
+
+        DB::insert("insert into items(image,name,category,description,price) value (?,?,?,?,?)",[
+            "img1.jpg","刀剣乱舞彩玉"," ピアス・イヤリング","刀剣乱舞のキャラクターをイメージした巻き玉のイヤリング",1350
+        ]);
+
+        DB::insert("insert into items(image,name,category,description,price) value (?,?,?,?,?)",[
+            "img2.jpg","無神ルキイメージピアス"," ピアス・イヤリング","大人気の乙女ゲームディアラバの無神ルキをイメージして作成したピアスです。",1300
+        ]);
+
+        DB::insert("insert into items(image,name,category,description,price) value (?,?,?,?,?)",[
+            "img3.jpg","土方歳三イメージバックチャーム"," バックチャーム","こちらも大人気の乙女ゲーム「薄桜鬼」より鬼の副長こと土方をイメージして作成しました",1500
+        ]);
     }
 }
