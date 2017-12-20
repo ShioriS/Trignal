@@ -110,7 +110,7 @@
 <!-- ピアス部門   -->
 <div class="panel panel-success">
     <div class="panel-heading">
-        ピアス
+        ピアス・イヤリング
     </div>
     <div class="panel-body">
 
@@ -157,7 +157,7 @@
             <a href="detail/9">
                 <img src="image/img1.jpg" alt="" width="256" height="256">
                 <p>『刀剣乱舞　彩玉』</p>
-                <p> 初期刀からレアまでここなら簡単に入手可能かも？</p>
+                <p> 初期刀からレア刀までここなら簡単に入手可能かも？</p>
                 <p> 自分の推しはありましたか？</p>
             </a>
         </div>
@@ -167,7 +167,7 @@
                 <img src="image/img2.jpg" alt="" width="256" height="256">
                 <p>『無神ルキ　イメージピアス』</p>
                 <p> 無神家長男・参謀系ドS！！</p>
-                <p> 黒と金がシック</p>
+                <p> イメージカラーは黒！！</p>
             </a>
         </div>
 
